@@ -1,0 +1,22 @@
+<div class="container-nav">
+  <div class="spacer"></div>
+
+  <!-- <div >
+    <span class="container-p"
+    >
+    {{parrafo}}
+  </span>
+  </div> -->
+
+  <div [ngClass]="classAnimation" (transitionend)="onTransitionEnd()">
+
+    <span  class="container-p"> {{contenidoActual}} </span>
+
+  </div>
+
+  <div class="container-span">
+
+    <span class="material-icons icons">keyboard_arrow_down</span>
+
+  </div>
+</div>

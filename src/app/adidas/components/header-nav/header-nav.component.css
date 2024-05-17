@@ -1,0 +1,57 @@
+
+
+.container-header-menu{
+  @apply flex justify-between items-center bg-gray-100
+}
+
+.icon-center{
+  @apply w-14 flex justify-center items-center
+}
+
+.icon-adidas{
+  @apply w-16 inline-block
+  transition-all ease-linear duration-200 hover:scale-150
+}
+.svg{
+  @apply fill-gray-950 stroke-gray-950 !important
+}
+
+
+.icons-left{
+  @apply flex flex-grow justify-start items-center
+}
+
+.icons-rigth{
+  @apply flex flex-grow justify-end items-center
+}
+
+
+.icons{
+  @apply text-4xl px-3 inline-block text-gray-800
+  transition-all duration-150 ease-linear
+  hover:scale-125
+}
+
+.corrido{
+  @apply mb-1
+}
+
+.burger{
+  @apply border-r-2
+}
+
+.item-flex{
+  @apply flex-auto w-full
+}
+
+/* NOTIFICACIONES */
+
+
+.notification{
+  @apply bg-green-300 p-1 text-sm rounded-full absolute
+}
+
+.user{
+@apply relative
+}
+

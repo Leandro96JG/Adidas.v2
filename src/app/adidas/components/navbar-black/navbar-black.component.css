@@ -1,0 +1,22 @@
+.container-nav{
+  @apply flex h-12 w-full bg-gray-950 justify-between items-center
+}
+
+.container-p{
+ @apply transition-opacity text-gray-300 font-semibold
+}
+
+.container-span{
+  @apply text-gray-300 font-semibold flex justify-center items-center
+}
+
+.fade-in{
+
+  @apply transition-all duration-500 ease-linear opacity-100
+}
+
+.ocultar{
+  @apply  opacity-0;
+}
+
+
