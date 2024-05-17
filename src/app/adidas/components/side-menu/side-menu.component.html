@@ -1,1 +1,8 @@
-<p>side-menu works!</p>
+<div class="menu-container">
+  <button class="menu-button material-icons" (click)="toggleMenu()">menu</button>
+  <div class="menu" [class.show]="menuVisible">
+    <a href="#">Opción 1</a>
+    <a href="#">Opción 2</a>
+    <a href="#">Opción 3</a>
+  </div>
+</div>

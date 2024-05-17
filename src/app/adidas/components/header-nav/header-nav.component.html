@@ -1,14 +1,17 @@
 <div>
-<side-menu class="hidden"></side-menu>
-<div class="container-header-menu">
 
-<div class="icons-left item-flex">
-  <span class="icons material-icons burger">menu</span>
-  <span class="icons material-icons">favorite</span>
-</div>
+  <navbar-black></navbar-black>
 
-<div class="icon-center item-flex">
-  <svg class="icon-adidas" viewBox="0 0 50.8 50.8" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+  <div class="container-header-menu">
+
+    <div class="icons-left item-flex">
+      <div (click)="toogleNav()"
+      class="icons burger z-10"><side-menu></side-menu></div>
+      <span class="icons material-icons icon-animation">favorite</span>
+    </div>
+
+    <div class="icon-center item-flex">
+      <svg class="icon-adidas" viewBox="0 0 50.8 50.8" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
     <path class="svg" d="m5.82 35.64 5.795-3.336 2.92 5.081H6.853Zm9.745-9.425 5.787-3.332 8.37 14.502H22.04zm9.809-9.468 5.788-3.332 13.817 23.97h-7.681z"
     style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"/>
   </svg>
@@ -22,13 +25,11 @@
   </div>
 
 
-  <span class="material-icons icons">search</span>
+  <span class="material-icons icons icon-animation">search</span>
 
-  <span class="material-icons icons corrido">local_mall</span>
+  <span class="material-icons icons corrido icon-animation">local_mall</span>
 </div>
 
-
-</div>
 </div>
 
-
+</div>

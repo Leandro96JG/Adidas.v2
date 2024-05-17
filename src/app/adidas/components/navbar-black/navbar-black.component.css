@@ -19,4 +19,6 @@
   @apply  opacity-0;
 }
 
-
+.icons{
+  @apply px-4 h-full cursor-pointer
+}
