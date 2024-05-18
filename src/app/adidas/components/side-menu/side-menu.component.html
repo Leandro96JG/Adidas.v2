@@ -1,8 +1,97 @@
-<div class="menu-container">
+<nav class="menu-container">
   <button class="menu-button material-icons" (click)="toggleMenu()">menu</button>
   <div class="menu" [class.show]="menuVisible">
-    <a href="#">Opción 1</a>
-    <a href="#">Opción 2</a>
-    <a href="#">Opción 3</a>
+
+    <div class="logo flex justify-between mx-5">
+      <div class="logo-adidas flex justify-center items-center">
+
+        <svg class="icon-adidas" viewBox="0 0 50.8 50.8" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+          <path class="svg" d="m5.82 35.64 5.795-3.336 2.92 5.081H6.853Zm9.745-9.425 5.787-3.332 8.37 14.502H22.04zm9.809-9.468 5.788-3.332 13.817 23.97h-7.681z"
+          style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"/>
+        </svg>
+      </div>
+      <button (click)="toggleMenu()" class="material-icons text-5xl">close</button>
+    </div>
+    <hr class="text-sm mx-4 text-gray-600">
+
+<div class="menu-genero">
+  <div class="menu-genero-items">
+        <div class="menu-genero-items-span woman font-bold">
+          <span class="material-icons  ">woman</span>
+          <span>Mujer</span>
+        </div>
+        <div class="icon-arrow">
+          <span class="material-icons ">arrow_forward_ios</span>
+        </div>
+
   </div>
-</div>
+  <div class="menu-genero-items ">
+        <div class="menu-genero-items-span man font-bold">
+          <span class="material-icons ">man</span>
+          <span>Hombre</span>
+        </div>
+        <div class="icon-arrow">
+          <span class="material-icons ">arrow_forward_ios</span>
+        </div>
+
+  </div>
+  <div class="menu-genero-items">
+        <div class="menu-genero-items-span boy font-bold">
+          <span class="material-icons ">boy</span>
+          <span>Niños</span>
+        </div>
+        <div class="icon-arrow">
+          <span class="material-icons ">arrow_forward_ios</span>
+        </div>
+
+  </div>
+  <div class="menu-genero-items ">
+        <div class="menu-genero-items-span sport font-semibold">
+          <span class="material-icons ">sports_soccer</span>
+          <span>Deportes</span>
+        </div>
+        <div class="icon-arrow">
+          <span class="material-icons ">arrow_forward_ios</span>
+        </div>
+
+  </div>
+  <div class="menu-genero-items ">
+        <div class="menu-genero-items-span public font-semibold">
+          <span class="material-icons ">public</span>
+          <span>Mundo Adidas</span>
+        </div>
+        <div class="icon-arrow">
+          <span class="material-icons ">arrow_forward_ios</span>
+        </div>
+
+  </div>
+  <div class="menu-genero-items ">
+        <div class="menu-genero-items-span sell font-semibold">
+          <span class="material-icons ">sell</span>
+          <span class="">Ofertas 50% OFF</span>
+        </div>
+        <div class="icon-arrow">
+          <span class="material-icons ">arrow_forward_ios</span>
+        </div>
+
+  </div>
+<nav>
+
+  <hr class="my-6 mx-3" >
+
+<nav>
+  <ul class="container-ul">
+    <li class="list-item animated-border">Mi Cuenta</li>
+    <li class="list-item animated-border">Buscador de Tiendas</li>
+    <li class="list-item animated-border">Ayuda</li>
+    <li class="list-item animated-border">Seguimiento de Pedidos</li>
+    <li class="list-item animated-border">Adidas APP</li>
+  </ul>
+
+</nav>
+<hr class="my-6 mx-3">
+
+<footer class="footer">
+  <span class="footer-span">La Rioja, Argentina</span>
+  <span class="footer-span">Todos los derechos reseverbados</span>
+</footer>

@@ -6,6 +6,7 @@ import { LayoutPageComponent } from './layout-page/layout-page.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { NavbarBlackComponent } from './components/navbar-black/navbar-black.component';
 import { HeaderNavComponent } from './components/header-nav/header-nav.component';
+import { HeroImageComponent } from './components/hero-image/hero-image.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { HeaderNavComponent } from './components/header-nav/header-nav.component
     LayoutPageComponent,
          SideMenuComponent,
          NavbarBlackComponent,
-         HeaderNavComponent
+         HeaderNavComponent,
+         HeroImageComponent
   ],
   imports: [
     CommonModule,

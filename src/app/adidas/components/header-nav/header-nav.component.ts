@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './header-nav.component.css'
 })
 export class HeaderNavComponent {
-  public toogleIsActive:boolean=false;
-
-  toogleNav(){
-    this.toogleIsActive = !this.toogleIsActive;
-    console.log(this.toogleIsActive);
-  }
+ 
 }

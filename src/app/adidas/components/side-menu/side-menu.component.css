@@ -1,34 +1,132 @@
 .menu-container {
-    position: relative;
     @apply relative
   }
 
   .menu-button {
-    @apply p-0 text-3xl cursor-pointer
+    @apply p-0 text-3xl cursor-pointer hover:scale-150 transition-all duration-300 ease-out
   }
 
   .menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-    opacity: 0;
-    pointer-events: none;
-
-    @apply absolute top-0 left-0 w-screen h-screen
+    @apply fixed top-0 left-0 w-screen h-screen bg-gray-300 -translate-x-full
+    transition-transform duration-500 ease-in-out
 
   }
-
 
   .menu.show {
-    transform: translateX(0);
-    opacity: 1;
-    pointer-events: auto;
+    @apply translate-x-0
   }
 
 
+
+  .icon-adidas{
+    @apply w-16 inline-block
+    transition-all ease-linear duration-75 hover:scale-150 cursor-pointer
+  }
+
+  svg{
+    @apply block fill-gray-950 stroke-gray-950  !important
+  }
+
+
+  /* ======== ESTILOS DEL SLIDE MENU ==================== */
+
+
+  .menu-genero{
+    @apply  mt-4 rounded-sm
+  }
+
+  /*! Lista del nav */
+
+  .menu-genero-items{
+    @apply flex justify-between items-center hover:bg-gray-400 rounded-md text-lg my-2 hover:scale-110 mx-3 transition-all duration-200 ease-linear
+  }
+
+ /* .menu-genero-items:nth-child(odd){
+    @apply  bg-gray-100 hover:bg-gray-200
+  }
+
+ .menu-genero-items:nth-child(even){
+    @apply  bg-gray-200 hover:bg-gray-400
+  } */
+
+  .icon-arrow{
+    @apply flex flex-grow-0 justify-center items-center cursor-pointer px-4 bg-green-200 rounded-l-md rounded-r-xl hover:bg-green-400
+  }
+
+
+  /*! Contedor de los span menu */
+
+  .menu-genero-items-span, .icon-arrow{
+    @apply flex items-center gap-x-2 py-3
+}
+
+.menu-genero-items-span{
+    @apply min-w-48 rounded-r-md pl-3
+}
+
+/*! Iconos de las palabras  */
+.icon-selection{
+
+}
+
+/*! clase de cada contenedor */
+
+.woman{
+  @apply hover:bg-pink-300 bg-pink-200
+}
+.man{
+  @apply hover:bg-blue-300 bg-blue-200
+
+}
+.boy{
+  @apply hover:bg-blue-300 bg-blue-400
+
+}
+.sport{
+  @apply hover:bg-red-300 bg-red-200
+
+}
+.public{
+  @apply hover:bg-green-300 bg-green-200
+
+}
+.sell{
+  @apply hover:bg-red-200 bg-red-300
+
+}
+
+
+/*! ========== NAV 2 ===================*/
+
+.container-ul{
+
+}
+
+.list-item{
+    @apply text-2xl font-light my-3
+}
+.animated-border {
+
+    @apply relative text-center cursor-pointer
+  }
+
+
+.animated-border::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-full h-0.5 bg-gray-700 origin-left
+    transition-transform duration-500 ease-out scale-x-0
+  }
+
+  .animated-border:hover::after {
+    @apply scale-x-100
+  }
+
+/*! FOOTER  */
+
+.footer{
+    @apply flex justify-between mx-5
+}
+
+.footer-span{
+    @apply text-sm
+}

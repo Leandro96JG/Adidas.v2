@@ -1,0 +1,50 @@
+header{
+  @apply h-auto w-full
+}
+
+/* .hero-img-container{
+ @apply
+} */
+
+.hero-img-container{
+  @apply relative w-auto h-auto object-cover object-center -z-10
+}
+
+
+/*! Texto del hero img */
+
+.section-hero{
+  @apply absolute italic bottom-14 left-8
+}
+
+.p-title{
+  @apply text-gray-200 text-2xl font-extrabold
+}
+.h1-title{
+  @apply text-gray-500 text-5xl font-extrabold
+}
+
+/*! Info header img  */
+
+.info-hero{
+  @apply bg-gray-700 min-h-52 flex flex-col justify-evenly items-center
+}
+
+.h2-title{
+  @apply flex text-2xl items-center font-bold text-gray-200
+}
+.fire{
+  @apply mx-4 text-red-600
+}
+
+.button-header{
+  @apply flex items-center justify-center text-gray-950 bg-gray-200 pl-3 rounded-xl py-2 hover:scale-110
+  transition-all duration-100 ease-out
+}
+
+.button-text{
+  @apply font-bold
+}
+.button-icons{
+  @apply flex items-center justify-center ml-5 mr-2
+}

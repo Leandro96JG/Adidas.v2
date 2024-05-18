@@ -34,7 +34,7 @@ export class NavbarBlackComponent implements OnInit{
         setTimeout(() => {
           this.iniciarAnimacion();
         }, 100); // Espera 100ms antes de iniciar la próxima animación
-      }, 4000); // Tiempo que el párrafo permanece visible antes de desvanecerse
+      }, 2000); // Tiempo que el párrafo permanece visible antes de desvanecerse
     }
 
 }
