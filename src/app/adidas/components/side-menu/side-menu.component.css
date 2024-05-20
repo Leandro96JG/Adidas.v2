@@ -32,13 +32,13 @@
 
 
   .menu-genero{
-    @apply  mt-4 rounded-sm
+    @apply  mt-4 rounded-sm md:pr-8
   }
 
   /*! Lista del nav */
 
   .menu-genero-items{
-    @apply flex justify-between items-center hover:bg-gray-400 rounded-md text-lg my-2 hover:scale-110 mx-3 transition-all duration-200 ease-linear
+    @apply flex justify-between items-center hover:bg-gray-400 rounded-md text-lg my-2 md:hover:scale-105 hover:scale-110 mx-3 md:mx-6 transition-all duration-200 ease-linear
   }
 
  /* .menu-genero-items:nth-child(odd){
@@ -99,11 +99,11 @@
 /*! ========== NAV 2 ===================*/
 
 .container-ul{
-
+ @apply flex flex-col justify-center items-center
 }
 
 .list-item{
-    @apply text-2xl font-light my-3
+    @apply text-2xl font-light my-3 w-max
 }
 .animated-border {
 

@@ -1,5 +1,5 @@
 .container-nav{
-  @apply flex h-12 w-full bg-gray-950 justify-between items-center
+  @apply flex h-12 w-full bg-gray-950 justify-between items-center md:justify-center md:items-center
 }
 
 .container-p{
@@ -8,6 +8,7 @@
 
 .container-span{
   @apply text-gray-300 font-semibold flex justify-end items-center flex-grow
+  md:justify-start
 }
 
 .fade-in{
