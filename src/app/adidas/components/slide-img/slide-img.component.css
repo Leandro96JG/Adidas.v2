@@ -1,0 +1,40 @@
+
+section{
+  @apply relative flex items-center
+}
+
+.button{
+  @apply absolute bg-opacity-5 flex justify-center items-center h-32 top-1/2 blur-sm hover:scale-100 scale-75 hover:blur-none
+  transition-all duration-200 ease-linear cursor-pointer  z-10 -translate-y-1/2
+}
+
+.container-section{
+  @apply flex w-full h-auto overflow-x-hidden scroll-smooth whitespace-nowrap bg-gray-200 py-3
+}
+
+img{
+  @apply object-cover object-center w-full h-3/4 block
+}
+
+
+.container-img{
+  @apply min-w-full flex flex-col items-center flex-auto
+}
+
+
+.title{
+  @apply font-sans text-xl font-bold italic rounded-lg py-2 px-4
+}
+
+.title:hover{
+  @apply  text-gray-100 bg-gray-950 transition-all duration-200 ease-linear
+}
+
+
+.button-left{
+  @apply left-2
+}
+.button-right{
+ @apply right-2
+}
+

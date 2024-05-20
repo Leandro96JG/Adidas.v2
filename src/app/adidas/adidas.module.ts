@@ -7,6 +7,7 @@ import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { NavbarBlackComponent } from './components/navbar-black/navbar-black.component';
 import { HeaderNavComponent } from './components/header-nav/header-nav.component';
 import { HeroImageComponent } from './components/hero-image/hero-image.component';
+import { SlideImgComponent } from './components/slide-img/slide-img.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HeroImageComponent } from './components/hero-image/hero-image.component
          SideMenuComponent,
          NavbarBlackComponent,
          HeaderNavComponent,
-         HeroImageComponent
+         HeroImageComponent,
+         SlideImgComponent
   ],
   imports: [
     CommonModule,

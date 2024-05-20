@@ -31,7 +31,7 @@ header{
 }
 
 .h2-title{
-  @apply flex text-2xl items-center font-bold text-gray-200
+  @apply flex text-2xl items-center font-bold text-gray-200 pointer-events-none italic
 }
 .fire{
   @apply mx-4 text-red-600
@@ -39,11 +39,11 @@ header{
 
 .button-header{
   @apply flex items-center justify-center text-gray-950 bg-gray-200 pl-3 rounded-xl py-2 hover:scale-110
-  transition-all duration-100 ease-out
+  transition-all duration-100 ease-out outline outline-2 hover:outline-gray-800
 }
 
 .button-text{
-  @apply font-bold
+  @apply font-bold uppercase
 }
 .button-icons{
   @apply flex items-center justify-center ml-5 mr-2
