@@ -10,6 +10,8 @@ import { HeroImageComponent } from './components/hero-image/hero-image.component
 import { SlideImgComponent } from './components/slide-img/slide-img.component';
 import { DeskopNavMenuComponent } from './components/deskop-nav-menu/deskop-nav-menu.component';
 import { DeskopMenuComponentModule } from './components/deskop-nav-menu/deskop-menu-component.module';
+import { ProductsPageComponent } from './components/products-page/products-page.component';
+import { NavSectionComponent } from './components/nav-section/nav-section.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { DeskopMenuComponentModule } from './components/deskop-nav-menu/deskop-m
          HeaderNavComponent,
          HeroImageComponent,
          SlideImgComponent,
-         DeskopNavMenuComponent
+         DeskopNavMenuComponent,
+         ProductsPageComponent,
+         NavSectionComponent
   ],
   imports: [
     CommonModule,

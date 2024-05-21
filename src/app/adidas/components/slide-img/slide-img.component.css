@@ -1,6 +1,6 @@
 
 section{
-  @apply relative flex items-center md:border-2 md:rounded-xl
+  @apply relative flex items-center md:rounded-xl
 }
 
 .button{
@@ -10,24 +10,24 @@ section{
 }
 
 .container-section{
-  @apply flex w-full h-auto overflow-x-hidden scroll-smooth whitespace-nowrap bg-gray-200 py-3
-  md:whitespace-normal md:w-auto md:overflow-auto shadow-xl shadow-gray-600
+  @apply flex w-full h-auto overflow-x-hidden scroll-smooth whitespace-nowrap bg-gray-100 py-3
+  md:whitespace-normal md:w-auto md:overflow-auto
 }
 
 .container-section::-webkit-scrollbar{
   @apply  bg-gray-600 h-4 mx-3 cursor-pointer rounded-xl
 }
 .container-section::-webkit-scrollbar-thumb{
-  @apply md:w-16 bg-gray-900 rounded-lg
+  @apply md:w-16 bg-gray-900
 }
 
 img{
-  @apply object-cover object-center w-full h-3/4 block md:w-1/4
+  @apply object-cover object-center w-full h-3/4 block md:w-1/2
 }
 
 
 .container-img{
-  @apply min-w-full flex flex-col items-center flex-auto md:justify-center
+  @apply min-w-full flex flex-col items-center justify-center flex-auto md:justify-center
 }
 
 

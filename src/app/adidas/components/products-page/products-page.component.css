@@ -1,0 +1,37 @@
+
+
+.container-img{
+  @apply overflow-x-auto
+}
+
+
+.img{
+  @apply relative
+  hover:border-2 hover:border-gray-950 box-content border-2 border-gray-100
+  transition-all duration-100 ease-in-out
+  md:h-40 md:w-60 flex-shrink-0
+}
+
+img{
+  @apply h-full w-full object-cover object-center
+}
+
+
+/*! Estilo del scroll */
+
+.container-img::-webkit-scrollbar{
+  @apply h-3 bg-gray-300
+}
+
+.container-img::-webkit-scrollbar-thumb{
+  @apply w-2 bg-gray-950 rounded-sm
+}
+
+.container-span{
+  @apply absolute bottom-2
+}
+
+span{
+  @apply mx-1 bg-gray-50 px-2 cursor-pointer
+}
+
