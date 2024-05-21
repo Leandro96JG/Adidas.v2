@@ -106,7 +106,6 @@
     @apply text-2xl font-light my-3 w-max
 }
 .animated-border {
-
     @apply relative text-center cursor-pointer
   }
 

@@ -8,22 +8,26 @@ import { NavbarBlackComponent } from './components/navbar-black/navbar-black.com
 import { HeaderNavComponent } from './components/header-nav/header-nav.component';
 import { HeroImageComponent } from './components/hero-image/hero-image.component';
 import { SlideImgComponent } from './components/slide-img/slide-img.component';
+import { DeskopNavMenuComponent } from './components/deskop-nav-menu/deskop-nav-menu.component';
+import { DeskopMenuComponentModule } from './components/deskop-nav-menu/deskop-menu-component.module';
 
 
 @NgModule({
   declarations: [
 
-  
-    LayoutPageComponent,
-         SideMenuComponent,
-         NavbarBlackComponent,
+
+        LayoutPageComponent,
+        SideMenuComponent,
+        NavbarBlackComponent,
          HeaderNavComponent,
          HeroImageComponent,
-         SlideImgComponent
+         SlideImgComponent,
+         DeskopNavMenuComponent
   ],
   imports: [
     CommonModule,
-    AdidasRoutingModule
+    AdidasRoutingModule,
+    DeskopMenuComponentModule,
   ]
 })
 export class AdidasModule { }

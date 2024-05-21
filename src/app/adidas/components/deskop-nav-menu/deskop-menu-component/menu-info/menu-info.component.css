@@ -1,0 +1,17 @@
+span{
+  @apply text-sm font-thin mx-3 cursor-pointer
+}
+
+span{
+  @apply relative cursor-pointer hover:scale-110 transition-all duration-150 ease-linear
+}
+
+span:before{
+  content:'';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-gray-900
+  hover:w-full transition-all duration-200 ease-linear
+}
+
+nav{
+  @apply flex justify-center
+}

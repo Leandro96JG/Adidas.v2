@@ -15,7 +15,7 @@
 
 
 .container-header-menu{
-  @apply flex justify-between items-center bg-gray-100
+  @apply flex justify-between items-center bg-gray-100 md:hidden
 }
 
 .icon-center{
@@ -42,7 +42,7 @@ svg{
 
 
 .icons{
-  @apply text-4xl px-3 inline-block text-gray-800
+  @apply text-4xl px-3 inline-block text-gray-950
 
 }
 .icon-animation{

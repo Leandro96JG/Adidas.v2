@@ -1,0 +1,13 @@
+nav{
+  @apply bg-gray-100 flex justify-between items-center
+}
+
+
+img{
+  @apply h-24 hover:scale-110 transition-all duration-150 ease-linear
+}
+
+
+.container-info{
+  @apply flex flex-col items-end
+}
