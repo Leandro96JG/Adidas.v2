@@ -1,24 +1,33 @@
 
 section{
-  @apply relative flex items-center
+  @apply relative flex items-center md:border-2 md:rounded-xl
 }
 
 .button{
-  @apply absolute bg-opacity-5 flex justify-center items-center h-32 top-1/2 blur-sm hover:scale-100 scale-75 hover:blur-none
-  transition-all duration-200 ease-linear cursor-pointer -translate-y-1/2
+  @apply absolute bg-opacity-5 flex justify-center items-center h-32 top-1/2 hover:scale-100 scale-75
+  transition-all duration-200 ease-linear cursor-pointer -translate-y-1/2 text-gray-300
+
 }
 
 .container-section{
   @apply flex w-full h-auto overflow-x-hidden scroll-smooth whitespace-nowrap bg-gray-200 py-3
+  md:whitespace-normal md:w-auto md:overflow-auto shadow-xl shadow-gray-600
+}
+
+.container-section::-webkit-scrollbar{
+  @apply  bg-gray-600 h-4 mx-3 cursor-pointer rounded-xl
+}
+.container-section::-webkit-scrollbar-thumb{
+  @apply md:w-16 bg-gray-900 rounded-lg
 }
 
 img{
-  @apply object-cover object-center w-full h-3/4 block
+  @apply object-cover object-center w-full h-3/4 block md:w-1/4
 }
 
 
 .container-img{
-  @apply min-w-full flex flex-col items-center flex-auto
+  @apply min-w-full flex flex-col items-center flex-auto md:justify-center
 }
 
 
@@ -32,9 +41,12 @@ img{
 
 
 .button-left{
-  @apply left-2
+  @apply left-2 md:left-14
 }
 .button-right{
  @apply right-2
 }
 
+.svg{
+  @apply w-12 fill-gray-200 text-gray-200 !important
+}
